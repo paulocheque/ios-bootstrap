@@ -8,6 +8,7 @@ DerivedData/*
 tmp-build/
 *.xcuserstate
 *.xcbkptlist
+*/xcshareddata/*
 UserInterfaceState.xcuserstate
 contents.xcworkspacedata
 xcuserdata

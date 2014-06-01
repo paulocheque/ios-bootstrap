@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		487AB9E7E05645EC99308D8E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C57AC427B647748D746ABC /* libPods.a */; };
+		5D56A935193B803400AAA908 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D56A934193B803400AAA908 /* SystemConfiguration.framework */; };
+		5D56A937193B803900AAA908 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D56A936193B803900AAA908 /* QuartzCore.framework */; };
+		5D56A939193B804300AAA908 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D56A938193B804300AAA908 /* AdSupport.framework */; };
+		5D56A93B193B804A00AAA908 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D56A93A193B804A00AAA908 /* MapKit.framework */; };
+		5D820778193AF00F0057FD7F /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D820777193AF00F0057FD7F /* LeftViewController.m */; };
+		5D82077B193AF03B0057FD7F /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D82077A193AF03B0057FD7F /* RightViewController.m */; };
+		5D82077E193AF0450057FD7F /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D82077D193AF0450057FD7F /* CenterViewController.m */; };
 		5DAA41EF193AD4D10030AA0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAA41EE193AD4D10030AA0E /* Foundation.framework */; };
 		5DAA41F1193AD4D10030AA0E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAA41F0193AD4D10030AA0E /* CoreGraphics.framework */; };
 		5DAA41F3193AD4D10030AA0E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAA41F2193AD4D10030AA0E /* UIKit.framework */; };
@@ -34,6 +41,16 @@
 
 /* Begin PBXFileReference section */
 		46C57AC427B647748D746ABC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D56A934193B803400AAA908 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5D56A936193B803900AAA908 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5D56A938193B804300AAA908 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		5D56A93A193B804A00AAA908 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5D820776193AF00F0057FD7F /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		5D820777193AF00F0057FD7F /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		5D820779193AF03B0057FD7F /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
+		5D82077A193AF03B0057FD7F /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
+		5D82077C193AF0450057FD7F /* CenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterViewController.h; sourceTree = "<group>"; };
+		5D82077D193AF0450057FD7F /* CenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterViewController.m; sourceTree = "<group>"; };
 		5DAA41EB193AD4D10030AA0E /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DAA41EE193AD4D10030AA0E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5DAA41F0193AD4D10030AA0E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -69,6 +86,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D56A93B193B804A00AAA908 /* MapKit.framework in Frameworks */,
+				5D56A939193B804300AAA908 /* AdSupport.framework in Frameworks */,
+				5D56A937193B803900AAA908 /* QuartzCore.framework in Frameworks */,
+				5D56A935193B803400AAA908 /* SystemConfiguration.framework in Frameworks */,
 				5DAA4208193AD4D10030AA0E /* XCTest.framework in Frameworks */,
 				5DAA420A193AD4D10030AA0E /* UIKit.framework in Frameworks */,
 				5DAA4209193AD4D10030AA0E /* Foundation.framework in Frameworks */,
@@ -101,6 +122,10 @@
 		5DAA41ED193AD4D10030AA0E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5D56A93A193B804A00AAA908 /* MapKit.framework */,
+				5D56A938193B804300AAA908 /* AdSupport.framework */,
+				5D56A936193B803900AAA908 /* QuartzCore.framework */,
+				5D56A934193B803400AAA908 /* SystemConfiguration.framework */,
 				5DAA41EE193AD4D10030AA0E /* Foundation.framework */,
 				5DAA41F0193AD4D10030AA0E /* CoreGraphics.framework */,
 				5DAA41F2193AD4D10030AA0E /* UIKit.framework */,
@@ -117,6 +142,12 @@
 				5DAA41FE193AD4D10030AA0E /* AppDelegate.m */,
 				5DAA4200193AD4D10030AA0E /* Images.xcassets */,
 				5DAA41F5193AD4D10030AA0E /* Supporting Files */,
+				5D820776193AF00F0057FD7F /* LeftViewController.h */,
+				5D820777193AF00F0057FD7F /* LeftViewController.m */,
+				5D820779193AF03B0057FD7F /* RightViewController.h */,
+				5D82077A193AF03B0057FD7F /* RightViewController.m */,
+				5D82077C193AF0450057FD7F /* CenterViewController.h */,
+				5D82077D193AF0450057FD7F /* CenterViewController.m */,
 			);
 			path = MyApp;
 			sourceTree = "<group>";
@@ -280,8 +311,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D820778193AF00F0057FD7F /* LeftViewController.m in Sources */,
+				5D82077B193AF03B0057FD7F /* RightViewController.m in Sources */,
 				5DAA41FF193AD4D10030AA0E /* AppDelegate.m in Sources */,
 				5DAA41FB193AD4D10030AA0E /* main.m in Sources */,
+				5D82077E193AF0450057FD7F /* CenterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

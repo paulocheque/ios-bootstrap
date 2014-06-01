@@ -1,5 +1,12 @@
 #import "AppDelegate.h"
 
+#import "JASidePanelController.h"
+
+#import "LeftViewController.h"
+#import "RightViewController.h"
+#import "CenterViewController.h"
+
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
@@ -7,6 +14,19 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    UIViewController *left = [[LeftViewController alloc] init];
+    UIViewController *center = [[CenterViewController alloc] init];
+    UIViewController *right = [[RightViewController alloc] init];
+    
+    JASidePanelController *viewController;
+    viewController = [[JASidePanelController alloc] init];
+    viewController.leftPanel = left;
+    viewController.centerPanel = [[UINavigationController alloc] initWithRootViewController:center];
+    viewController.rightPanel = right;
+
+    self.window.rootViewController = viewController;
+    
     return YES;
 }
 
