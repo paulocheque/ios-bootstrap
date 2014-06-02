@@ -12,6 +12,10 @@
 		5D56A937193B803900AAA908 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D56A936193B803900AAA908 /* QuartzCore.framework */; };
 		5D56A939193B804300AAA908 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D56A938193B804300AAA908 /* AdSupport.framework */; };
 		5D56A93B193B804A00AAA908 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D56A93A193B804A00AAA908 /* MapKit.framework */; };
+		5D56A93D193C22D900AAA908 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D56A93C193C22D800AAA908 /* CoreLocation.framework */; };
+		5D56A93F193C22E900AAA908 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D56A93E193C22E900AAA908 /* CFNetwork.framework */; };
+		5D56A941193C231D00AAA908 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D56A940193C231D00AAA908 /* Social.framework */; };
+		5D56A943193C232300AAA908 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D56A942193C232300AAA908 /* StoreKit.framework */; };
 		5D820778193AF00F0057FD7F /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D820777193AF00F0057FD7F /* LeftViewController.m */; };
 		5D82077B193AF03B0057FD7F /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D82077A193AF03B0057FD7F /* RightViewController.m */; };
 		5D82077E193AF0450057FD7F /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D82077D193AF0450057FD7F /* CenterViewController.m */; };
@@ -45,6 +49,10 @@
 		5D56A936193B803900AAA908 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		5D56A938193B804300AAA908 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		5D56A93A193B804A00AAA908 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5D56A93C193C22D800AAA908 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5D56A93E193C22E900AAA908 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		5D56A940193C231D00AAA908 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		5D56A942193C232300AAA908 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		5D820776193AF00F0057FD7F /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
 		5D820777193AF00F0057FD7F /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
 		5D820779193AF03B0057FD7F /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
@@ -86,6 +94,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D56A943193C232300AAA908 /* StoreKit.framework in Frameworks */,
+				5D56A941193C231D00AAA908 /* Social.framework in Frameworks */,
+				5D56A93F193C22E900AAA908 /* CFNetwork.framework in Frameworks */,
+				5D56A93D193C22D900AAA908 /* CoreLocation.framework in Frameworks */,
 				5D56A93B193B804A00AAA908 /* MapKit.framework in Frameworks */,
 				5D56A939193B804300AAA908 /* AdSupport.framework in Frameworks */,
 				5D56A937193B803900AAA908 /* QuartzCore.framework in Frameworks */,
@@ -122,6 +134,10 @@
 		5DAA41ED193AD4D10030AA0E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5D56A942193C232300AAA908 /* StoreKit.framework */,
+				5D56A940193C231D00AAA908 /* Social.framework */,
+				5D56A93E193C22E900AAA908 /* CFNetwork.framework */,
+				5D56A93C193C22D800AAA908 /* CoreLocation.framework */,
 				5D56A93A193B804A00AAA908 /* MapKit.framework */,
 				5D56A938193B804300AAA908 /* AdSupport.framework */,
 				5D56A936193B803900AAA908 /* QuartzCore.framework */,

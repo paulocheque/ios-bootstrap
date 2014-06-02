@@ -7,12 +7,15 @@ pod 'SSToolkit'
 pod 'ConciseKit', '~> 0.1.2'
 pod 'BlocksKit'
 pod 'ObjectiveSugar', '~> 0.5'
+pod 'ConciseKit', '~> 0.1.2'
 
-# Base
+# Network
 pod 'Reachability',  '~> 3.0'
+pod 'AFNetworking', '1.0'
+pod 'RestKit', '~> 0.20.0'
+pod 'MBProgressHUD', '~> 0.8'
 pod 'JSONKit',       '~> 1.4'
 pod 'SBJson4'
-pod 'AFNetworking', '1.0'
 
 # Social
 pod 'Facebook-iOS-SDK', '3.1.1'
